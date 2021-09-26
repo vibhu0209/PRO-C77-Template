@@ -18,44 +18,23 @@ export default class HomeScreen extends Component {
         return (
             <View style={styles.container}>
                 <SafeAreaView style={styles.droidSafeArea} />
-                {/* <Background 
+              
+                 <ImageBackground 
                         source={require('../assets/stars.gif')} 
                         style={styles.backgroundImage}> 
-                */}
-                {/* <Image 
-                        source={require('../assets/stars.gif')} 
-                        style={styles.backgroundImage}> 
-                */}
-                {/* <ImageBackground 
-                        source={require('../assets/stars.gif')} 
-                        style={styles.backgroundImage}> 
-                */}
-                {/* <BackgroundImage
-                        source={require('../assets/stars.gif')} 
-                        style={styles.backgroundImage}> 
-                */}
+                
+              
                     <View style={styles.titleBar}>
                         <Image source={require("../assets/main-icon.png")} style={{ width: 150, height: 150 }}></Image>
                         <Text style={styles.titleText}>Stellar</Text>
                         <Text style={styles.titleText}>App</Text>
                     </View>
 
-                    {/* <TouchableOpacity 
-                          style={styles.routeCard} onPress={() =>
-                        this.props.navigation("SpaceCraft")
-                    }> */}
-                    {/* <TouchableOpacity 
-                          style={styles.routeCard} onPress={() =>
-                        navigation.navigate("SpaceCraft")
-                    }> */}
-                    {/* <TouchableOpacity 
-                          style={styles.routeCard} onPress={() =>
-                        this.props("SpaceCraft")
-                    }> */}
-                    {/* <TouchableOpacity 
+                  
+                   <TouchableOpacity 
                           style={styles.routeCard} onPress={() =>
                         this.props.navigation.navigate("SpaceCraft")
-                    }> */}                    
+                    }>                    
                         <Text style={styles.routeText}>Spacecrafts</Text>
                         <Image source={require("../assets/space_crafts.png")} style={styles.routeImage}></Image>
                     </TouchableOpacity>
